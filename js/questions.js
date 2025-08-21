@@ -165,6 +165,253 @@ let questions = [
     numb: 28,
     question: "What is the PRIMARY reason for security awareness training?",
     answer: "To ensure everyone understands the organization's policies and procedures",
-    options: ["To ensure that everyone understands the organization's policies and procedures", 'To communicate that access to information will be granted on a need-to-know basis', 'To warn all users that access to all systems will be monitored on a daily basis', 'To comply with regulations related to data and information protection'],
+    options: [
+      "To ensure that everyone understands the organization's policies and procedures",
+      "To communicate that access to information will be granted on a need-to-know basis",
+      "To warn all users that access to all systems will be monitored on a daily basis",
+      "To comply with regulations related to data and information protection"
+    ]
+  },
+  {
+    numb: 29,
+    question: "Which of the following is a fundamental objective in handling an incident?",
+    answer: "To restore control of the affected systems",
+    options: [
+      "To restore control of the affected systems",
+      "To confiscate the suspect's computers",
+      "To prosecute the attacker",
+      "To perform full backups of the system"
+    ]
+  },
+  {
+    numb: 30,
+    question: "Which of the following is the MOST effective layer of security to mitigate an attacker’s ability to gain further information in case of a network breach?",
+    answer: "Implement logical network segmentation at the switches",
+    options: [
+      "Implement packet filtering on the network firewalls",
+      "Require strong authentication for administrators",
+      "Install Host Based Intrusion Detection Systems (HIDS)",
+      "Implement logical network segmentation at the switches"
+    ]
+  },
+  {
+    numb: 31,
+    question: "In a Disaster Recovery Plan, what should be the FIRST action when an incident occurs?",
+    answer: "Investigate all symptoms to confirm the incident",
+    options: [
+      "Determine the cause of the incident",
+      "Disconnect the system involved from the network",
+      "Isolate and contain the system involved",
+      "Investigate all symptoms to confirm the incident"
+    ]
+  },
+  {
+    numb: 32,
+    question: "What should be done to verify the integrity of software patches?",
+    answer: "Cryptographic checksums",
+    options: [
+      "Cryptographic checksums",
+      "Version numbering",
+      "Automatic updates",
+      "Vendor assurance"
+    ]
+  },
+  {
+    numb: 33,
+    question: "Which of the following is the MOST effective method for avoiding data leakage?",
+    answer: "Encryption",
+    options: [
+      "Data classification",
+      "Data validation",
+      "Encryption",
+      "Data loss prevention tools"
+    ]
+  },
+  {
+    numb: 34,
+    question: "What is the PRIMARY goal of information classification?",
+    answer: "To ensure that information assets receive an appropriate level of protection",
+    options: [
+      "To assign responsibility for mitigating the risk to vulnerable systems",
+      "To ensure that information assets receive an appropriate level of protection",
+      "To recognize that the value of any item of information may change over time",
+      "To recognize the optimal number of classification categories and the benefits to be gained from their use"
+    ]
+  },
+  {
+    numb: 35,
+    question: "Which of the following is the MOST important consideration when storing and processing Personally Identifiable Information (PII)?",
+    answer: "Adherence to collection limitation laws and regulations.",
+    options: [
+      "Encrypt and hash all PII to avoid disclosure and tampering.",
+      "Store PII for no more than one year.",
+      "Avoid storing PII in a Cloud Service Provider.",
+      "Adherence to collection limitation laws and regulations."
+    ]
+  },
+  {
+    numb: 36,
+    question: "What is the BEST way to check for good security programming practices, as well as auditing for possible backdoors?",
+    answer: "Code reviews",
+    options: [
+      "Log auditing",
+      "Code reviews",
+      "Impact assessments",
+      "Static analysis"
+    ]
+  },
+  {
+    numb: 37,
+    question: "What should be the FIRST step when implementing a patch management program?",
+    answer: "Create a system inventory",
+    options: [
+      "Perform automatic deployment of patches",
+      "Monitor for vulnerabilities and threats",
+      "Prioritize vulnerability remediation",
+      "Create a system inventory"
+    ]
+  },
+  {
+    numb: 38,
+    question: "Which of the following BEST describes a method for evaluating security controls?",
+    answer: "Penetration testing",
+    options: [
+      "Vulnerability scanning",
+      "Penetration testing",
+      "Static code analysis",
+      "Risk assessments"
+    ]
+  },
+  {
+    numb: 39,
+    question: "Which of the following is an important component of a Business Continuity Plan (BCP)?",
+    answer: "Recovery strategies",
+    options: [
+      "Impact analysis",
+      "Recovery strategies",
+      "Risk assessments",
+      "Testing procedures"
+    ]
+  },
+  {
+    numb: 40,
+    question: "What is the PRIMARY purpose of encryption in data transmission?",
+    answer: "Confidentiality",
+    options: [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Non-repudiation"
+    ]
+  },
+  {
+    numb: 41,
+    question: "Which of the following security mechanisms is MOST effective in preventing e-mail spoofing?",
+    answer: "Cryptographic signature",
+    options: [
+      "Spam filtering",
+      "Cryptographic signature",
+      "Uniform Resource Locator (URL) filtering",
+      "Reverse Domain Name Service (DNS) lookup"
+    ]
+  },
+  {
+    numb: 42,
+    question: "Which of the following is the BEST way to prevent malware from being introduced into a production environment?",
+    answer: "Test all new software in a segregated environment",
+    options: [
+      "Purchase software from a limited list of retailers",
+      "Verify the hash key or certificate key of all updates",
+      "Do not permit programs, patches, or updates from the Internet",
+      "Test all new software in a segregated environment"
+    ]
+  },
+  {
+    numb: 43,
+    question: "What is the primary goal of a Business Impact Analysis (BIA)?",
+    answer: "To understand how critical a system or asset is to business operations",
+    options: [
+      "To understand how critical a system or asset is to business operations",
+      "To prepare for disaster recovery testing",
+      "To create risk assessments",
+      "To create business continuity strategies"
+    ]
+  },
+  {
+    numb: 44,
+    question: "Which of the following types of encryption is MOST commonly used to secure data during transmission over the Internet?",
+    answer: "Transport Layer Security (TLS)",
+    options: [
+      "Symmetric encryption",
+      "Asymmetric encryption",
+      "Transport Layer Security (TLS)",
+      "Hashing"
+    ]
+  },
+  {
+    numb: 45,
+    question: "What is the most effective method for securing web applications against injection attacks?",
+    answer: "Input validation",
+    options: [
+      "Input validation",
+      "Firewalls",
+      "Encryption",
+      "Access control lists"
+    ]
+  },
+  {
+    numb: 46,
+    question: "Which of the following is a limitation of the Common Vulnerability Scoring System (CVSS)?",
+    answer: "It does not consider the likelihood of an attack",
+    options: [
+      "It requires external tools for assessing vulnerabilities",
+      "It does not consider the likelihood of an attack",
+      "It relies too much on subjective judgment",
+      "It does not apply to all types of vulnerabilities"
+    ]
+  },
+  {
+    numb: 47,
+    question: "Which of the following is the BEST approach for testing a Business Continuity Plan (BCP)?",
+    answer: "Test when environment changes",
+    options: [
+      "Test before the IT Audit",
+      "Test when environment changes",
+      "Test after installation of security patches",
+      "Test after implementation of system patches"
+    ]
+  },
+  {
+    numb: 48,
+    question: "Which of the following best describes a vulnerability assessment?",
+    answer: "Identifying and quantifying security weaknesses in a system",
+    options: [
+      "Identifying and quantifying security weaknesses in a system",
+      "Testing the effectiveness of existing security controls",
+      "Assessing the probability of a threat actor exploiting a vulnerability",
+      "Evaluating the financial impact of security incidents"
+    ]
+  },
+  {
+    numb: 49,
+    question: "What is the PRIMARY benefit of using multi-factor authentication?",
+    answer: "Increased security by requiring multiple forms of identification",
+    options: [
+      "Increased security by requiring multiple forms of identification",
+      "Increased convenience by reducing the number of passwords needed",
+      "Reduced system access time",
+      "Reduced administrative overhead"
+    ]
+  },
+  {
+    numb: 50,
+    question: "What is the MOST important consideration when implementing a security policy?",
+    answer: "Ensure it aligns with the organization’s business goals and needs",
+    options: [
+      "Ensure it aligns with the organization’s business goals and needs",
+      "Make it as detailed as possible",
+      "Ensure it covers every security aspect of the organization",
+      "Ensure it is strictly enforced"
+    ]
   }
 ];
